@@ -2,12 +2,20 @@ import Character from './../src/character.js'
 
 describe('Character', () =>{
 
+    let character1;
+    let character2;
+    let character3;
+    let character4;
+    let character5;
+    
+  beforeEach(()=>{
+    character1 = new Character("Martial Artist");
+    character2 = new Character("Berserker");
+    character3 = new Character("Wizard");
+    character4 = new Character("Alchemist");
+    character5 = new Character("Healer");
+  });
   test('should correctly create a character with appropriate properites based on the argument', () => {
-    const character1 = new Character("Martial Artist");
-    const character2 = new Character("Berserker");
-    const character3 = new Character("Wizard");
-    const character4 = new Character("Alchemist");
-    const character5 = new Character("Healer");
     expect(character1.characterType).toEqual("Martial Artist");
     expect(character1.health).toEqual(5);
     expect(character1.defence).toEqual(5);
@@ -74,4 +82,9 @@ describe('Character', () =>{
     expect(character5.skillType).toEqual("Self Heal");
     expect(character5.skill).toEqual(1);
   });
+
+  // test('assess the current value of skill and respond appropriately', () => {
+  //   character1.useSkill();
+  //   expect(character1.skill).toEqual(0);
+  // }
 });

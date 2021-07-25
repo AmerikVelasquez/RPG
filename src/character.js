@@ -1,5 +1,5 @@
 export default class Character {
-  constructor(type){
+  constructor(type) {
     if (type === "Martial Artist") {
       this.characterType = type;
       this.health = 5;
@@ -73,8 +73,8 @@ export default class Character {
     }
   }
 
-
+  // useSkill() {
   
-  
+  // };
 }
 
