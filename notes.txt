@@ -52,11 +52,14 @@ Health: 6
 
 all types can 
 1. Attack 
-2. magic attack
-3. use skill 
+2. magic attack 
+3. use skill *player impacted
 4. leave battle 
-5. heal 
-6. use items 
+6. use items *player impacted
+
+Individual players
+5. heal *player impacted
+1. fury *player impacted
 
 all types have access to potions. keep all potions until used.
 1. mana replenishment
@@ -129,3 +132,4 @@ function Character(type) {
   this.level: 1
   }
 }
+
