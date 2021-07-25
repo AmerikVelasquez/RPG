@@ -15,7 +15,7 @@ module.exprts = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'placeholder',
+      title: 'RPG',
       template: './src/index.html',
       inject: 'body'
     })
