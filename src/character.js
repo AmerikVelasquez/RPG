@@ -74,7 +74,12 @@ export default class Character {
   }
 
   useSkill() {
-  
+  if(this.skill === 1){
+      this.skill = 0;
+      return 0;
+    } else {
+      return "cooldown";
+    } 
   };
 }
 

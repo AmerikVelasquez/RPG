@@ -84,6 +84,8 @@ describe('Character', () =>{
   });
 
   test('should assess the current value of skill and respond appropriately', () => {
+    character2.skill = 0;
     expect(character1.useSkill()).toEqual(0);
+    expect(character2.useSkill()).toEqual("cooldown");
   });
 });
