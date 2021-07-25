@@ -1,0 +1,131 @@
+Character types 
+
+1. Martial Artist 
+  Health: 5
+  Defence: 5
+  Attack: 5
+  Magic attack: 0
+  mana: 0 (energy that allows a magic attack to occur)
+  intelligence: 5
+
+  skill: reflect (partial damage reflection)
+
+2. Berserker
+  Heath : 8 
+  Defence :4
+  Attack : 8
+  Magic attack: 0
+  mana: 0 
+  intelligence: 2
+
+  skill: fury 
+
+3. Wizard 
+Health: 5
+  Defence: 3
+  Attack: 0
+  Magic attack: 6
+  mana: 7
+  intelligence: 8
+
+skill: Fireball 
+
+4. Alchemist
+Health: 6
+  Defence: 6
+  Attack: 2
+  Magic attack: 0
+  mana: 2 
+  intelligence: 9
+
+  Skills : item enhacement 
+
+5. Healer 
+ Health:7 
+  Defence:4 
+  Attack: 3
+  Magic attack: 0
+  mana: 6 
+  intelligence: 6
+
+  Skill: self heal 
+
+all types can 
+1. Attack 
+2. magic attack
+3. use skill 
+4. leave battle 
+5. heal 
+6. use items 
+
+all types have access to potions. keep all potions until used.
+1. mana replenishment
+2. attack boost (boost attack points/increase their strength)
+3. health boost (boost health points)
+
+stat line:
+1. Health 
+2. defence
+3. attack
+4. magic attack
+5. mana
+6. intelligence
+
+function Character(type) {
+  if (type === "Martial Artist") {
+  this.health: 5
+  this.defence: 5
+  this.attack: 5
+  this.magicAttack: 0
+  this.mana: 0
+  this.intelligence: 5
+  this.manaReplenishmentPotion: 3 
+  this.attackBoostPotion: 3
+  this.healthBoostPotion: 3 
+  this.level: 1
+  } else if (type === "Berserker") {
+  this.health: 8
+  this.defence: 4
+  this.attack: 8
+  this.magicAttack: 0
+  this.mana: 0
+  this.intelligence: 2
+  this.manaReplenishmentPotion: 3
+  this.attackBoostPotion: 3
+  this.healthBoostPotion: 3
+  this.level: 1
+  } else if (type === "Wizard") {
+  this.health: 5
+  this.defence: 3
+  this.attack: 0
+  this.magicAttack: 6
+  this.mana: 7
+  this.intelligence: 8
+  this.manaReplenishmentPotion: 3
+  this.attackBoostPotion: 3
+  this.healthBoostPotion: 3
+  this.level: 1
+  } else if (type === "Alchemist") {
+  this.health: 6
+  this.defence: 6
+  this.attack: 2
+  this.magicAttack: 0
+  this.mana: 2
+  this.intelligence: 9
+  this.manaReplenishmentPotion: 3
+  this.attackBoostPotion: 3
+  this.healthBoostPotion: 3
+  this.level: 1
+  } else if (type === "Healer") {
+  this.health: 7
+  this.defence: 4
+  this.attack: 3
+  this.magicAttack: 0
+  this.mana: 6
+  this.intelligence: 6
+  this.manaReplenishmentPotion: 3
+  this.attackBoostPotion: 3
+  this.healthBoostPotion: 3 
+  this.level: 1
+  }
+}
