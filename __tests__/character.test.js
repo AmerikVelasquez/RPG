@@ -73,6 +73,5 @@ describe('Character', () =>{
     expect(character5.level).toEqual(1);
     expect(character5.skillType).toEqual("Self Heal");
     expect(character5.skill).toEqual(1);
-
   });
 });
