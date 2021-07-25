@@ -83,8 +83,7 @@ describe('Character', () =>{
     expect(character5.skill).toEqual(1);
   });
 
-  // test('assess the current value of skill and respond appropriately', () => {
-  //   character1.useSkill();
-  //   expect(character1.skill).toEqual(0);
-  // }
+  test('should assess the current value of skill and respond appropriately', () => {
+    expect(character1.useSkill()).toEqual(0);
+  });
 });

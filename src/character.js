@@ -73,8 +73,8 @@ export default class Character {
     }
   }
 
-  // useSkill() {
+  useSkill() {
   
-  // };
+  };
 }
 
