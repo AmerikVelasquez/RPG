@@ -80,5 +80,9 @@ export default class Character {
       return "cooldown";
     } 
   };
+
+  selfHeal(){
+
+  };
 }
 
