@@ -11,6 +11,7 @@ export default class Character {
       this.attackBoostPotion = 3;
       this.healthBoostPotion = 3; 
       this.level = 1;
+      this.reflect = 1;
     } else if (type === "Berserker") {
       this.health = 8;
       this.defence = 4;
@@ -22,6 +23,7 @@ export default class Character {
       this.attackBoostPotion = 3;
       this.healthBoostPotion = 3;
       this.level = 1;
+      this.fury = 1;
     } else if (type === "Wizard") {
       this.health = 5;
       this.defence = 3;
@@ -33,6 +35,7 @@ export default class Character {
       this.attackBoostPotion = 3;
       this.healthBoostPotion = 3;
       this.level = 1;
+      this.fireball = 1;
     } else if (type === "Alchemist") {
       this.health = 6;
       this.defence = 6;
@@ -44,6 +47,7 @@ export default class Character {
       this.attackBoostPotion = 3;
       this.healthBoostPotion = 3;
       this.level = 1;
+      this.itemEnhancement = 1;
     } else {
       this.health = 7;
       this.defence = 4;
@@ -55,6 +59,10 @@ export default class Character {
       this.attackBoostPotion = 3;
       this.healthBoostPotion = 3; 
       this.level = 1;
+      this.selfHeal = 1;
     }
   }
+  
+  
 }
+

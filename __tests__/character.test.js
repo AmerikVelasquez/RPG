@@ -14,5 +14,6 @@ describe('Character', () =>{
     expect(character1.attackBoostPotion).toEqual(3);
     expect(character1.healthBoostPotion).toEqual(3);
     expect(character1.level).toEqual(1);
+    expect(character1.reflect).toEqual(1);
   });
 });
