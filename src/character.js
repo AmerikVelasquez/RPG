@@ -82,7 +82,11 @@ export default class Character {
   };
 
   selfHeal() {
-    
+    this.useSkill();
+    const newHealthIncrementation = `${this.level}0`;
+    console.log(newHealthIncrementation);
+    const newHealthIncrement = parseInt(newHealthIncrementation)
+    this.health += newHealthIncrement;
   };
 }
 

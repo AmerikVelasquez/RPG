@@ -93,5 +93,6 @@ describe('Character', () =>{
   test('should call the useSkill method and add an incremental value to the health property value', () => {
     character5.selfHeal();
     expect(character5.skill).toEqual(0);
+    expect(character5.health).toEqual(17);
   });
 });
