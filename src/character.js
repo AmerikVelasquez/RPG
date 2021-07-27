@@ -81,8 +81,8 @@ export default class Character {
     } 
   };
 
-  selfHeal(){
-
+  selfHeal() {
+    
   };
 }
 
