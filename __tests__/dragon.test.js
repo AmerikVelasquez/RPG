@@ -7,5 +7,6 @@ describe('Dragon', () => {
     expect(dragon.attack).toEqual(5);
     expect(dragon.health).toEqual(10);
     expect(dragon.defense).toEqual(4);
+    expect(dragon.isAlive).toEqual(true);
   });
 });

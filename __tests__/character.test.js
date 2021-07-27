@@ -1,6 +1,7 @@
 import Character from './../src/character.js'
+import Dragon from './../src/dragon.js'
 
-describe('Character', () =>{
+describe('Character', () => {
 
     let character1;
     let character2;
@@ -94,5 +95,11 @@ describe('Character', () =>{
     character5.selfHeal();
     expect(character5.skill).toEqual(0);
     expect(character5.health).toEqual(17);
+  });
+
+  test('should', () => {
+    let dragon1 = new Dragon(); 
+    character1.fightDragon(dragon1);
+    expect()
   });
 });

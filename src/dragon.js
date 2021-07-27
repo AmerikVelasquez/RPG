@@ -3,6 +3,7 @@ export default class Dragon {
     this.attack = 5;
     this.defense = 4;
     this.health = 10;
+    this.isAlive = true;
   }
 
 }
