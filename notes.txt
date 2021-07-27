@@ -133,3 +133,15 @@ function Character(type) {
   }
 }
 
+Non Playable Characters
+
+Monster
+1. Dragon
+Needed properties: health, attack, defense
+Only the character can instigate the fight
+
+If character and dragon fight:
+dragon dies in one hit: player takes no damage and player levels up
+dragon dies in more than one hit: player looses 4 health points and player levels up
+dragon wins: character health reduced to zero
+player runs away mid fight: no level up and player looses 1 health point
